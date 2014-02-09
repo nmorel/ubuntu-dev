@@ -5,7 +5,7 @@ Files to setup development environment on Ubuntu using chef-solo and librarian-c
 
 ```sh
 # Install chef-solo
-./install_chef_solo.sh
+sudo ./install_chef_solo.sh
 
 # install librarian-chef
 sudo gem install librarian-chef
