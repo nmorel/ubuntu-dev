@@ -1,0 +1,39 @@
+{
+  "java" : {
+    "install_flavor": "oracle",
+    "jdk_version": 7,
+    "oracle": {
+      "accept_oracle_download_terms": true
+    }
+  },
+  "maven" : {
+    "version": "3",
+    "setup_bin": true,
+    "mavenrc": {
+      "opts": "-Xms256m -Xmx1024m"
+    }
+  },
+  "gradle" : {
+    "version": "1.10",
+    "url": "http://services.gradle.org/distributions/gradle-1.10-bin.zip",
+    "checksum": "6e6db4fc595f27ceda059d23693b6f6848583950606112b37dfd0e97a0a0a4fe"
+  },
+  "vagrant" : {
+    "url": "https://dl.bintray.com/mitchellh/vagrant/vagrant_1.4.3_x86_64.deb",
+    "checksum": "https://dl.bintray.com/mitchellh/vagrant/1.4.3_SHA256SUMS?direct"
+  },
+  "run_list": [
+    "recipe[java]",
+    "recipe[git]",
+    "recipe[subversion]",
+    "recipe[ant]",
+    "recipe[maven]",
+    "recipe[gradle]",
+    "recipe[nodejs]",
+    "recipe[nodejs::npm]",
+    "recipe[mongodb::10gen_repo]",
+    "recipe[mongodb::default]",
+    "recipe[virtualbox]",
+    "recipe[vagrant]"
+  ]
+}
