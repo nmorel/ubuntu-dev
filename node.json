@@ -1,7 +1,7 @@
 {
-  "java" : {
+  "java" : { 
     "install_flavor": "oracle",
-    "jdk_version": 7,
+    "jdk_version": 8,
     "oracle": {
       "accept_oracle_download_terms": true
     }
@@ -14,13 +14,13 @@
     }
   },
   "gradle" : {
-    "version": "1.10",
-    "url": "http://services.gradle.org/distributions/gradle-1.10-bin.zip",
-    "checksum": "6e6db4fc595f27ceda059d23693b6f6848583950606112b37dfd0e97a0a0a4fe"
+    "version": "1.12",
+    "url": "http://services.gradle.org/distributions/gradle-1.12-bin.zip",
+    "checksum": "8734b13a401f4311ee418173ed6ca8662d2b0a535be8ff2a43ecb1c13cd406ea"
   },
   "vagrant" : {
-    "url": "https://dl.bintray.com/mitchellh/vagrant/vagrant_1.4.3_x86_64.deb",
-    "checksum": "https://dl.bintray.com/mitchellh/vagrant/1.4.3_SHA256SUMS?direct"
+    "url": "https://dl.bintray.com/mitchellh/vagrant/vagrant_1.6.2_x86_64.deb",
+    "checksum": "https://dl.bintray.com/mitchellh/vagrant/1.6.2_SHA256SUMS?direct"
   },
   "run_list": [
     "recipe[java]",
