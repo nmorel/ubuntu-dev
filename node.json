@@ -14,13 +14,13 @@
     }
   },
   "gradle" : {
-    "version": "1.12",
-    "url": "http://services.gradle.org/distributions/gradle-1.12-bin.zip",
-    "checksum": "8734b13a401f4311ee418173ed6ca8662d2b0a535be8ff2a43ecb1c13cd406ea"
+    "version": "2.0",
+    "url": "http://services.gradle.org/distributions/gradle-2.0-bin.zip",
+    "checksum": "11c32ed95c0ed44e091154391d69008ac5ec25ad897bc881547e6942a03aeb13"
   },
   "vagrant" : {
-    "url": "https://dl.bintray.com/mitchellh/vagrant/vagrant_1.6.2_x86_64.deb",
-    "checksum": "https://dl.bintray.com/mitchellh/vagrant/1.6.2_SHA256SUMS?direct"
+    "url": "https://dl.bintray.com/mitchellh/vagrant/vagrant_1.6.3_x86_64.deb",
+    "checksum": "https://dl.bintray.com/mitchellh/vagrant/1.6.3_SHA256SUMS?direct"
   },
   "run_list": [
     "recipe[java]",
