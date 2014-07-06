@@ -1,17 +1,17 @@
 ubuntu-dev
 ==========
 
-Files to setup development environment on Ubuntu using chef-solo and librarian-chef
+Files to setup development environment on Ubuntu using chef-solo and Berkshelf
 
 ```sh
 # Install chef-solo
 sudo ./install_chef_solo.sh
 
-# install librarian-chef
-sudo gem install librarian-chef
+# install berkshelf
+sudo gem install berkshelf
 
 # download cookbooks
-librarian-chef install
+berks vendor cookbooks
 
 # install packages
 sudo chef-solo -c solo.rb

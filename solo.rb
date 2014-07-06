@@ -1,3 +1,5 @@
-file_cache_path "/home/nico/dev/ubuntu-dev/tmp"
-cookbook_path "/home/nico/dev/ubuntu-dev/cookbooks"
-json_attribs "/home/nico/dev/ubuntu-dev/node.json"
+root = File.absolute_path(File.dirname(__FILE__))
+
+file_cache_path root + "/tmp"
+cookbook_path root + "/cookbooks"
+json_attribs root + "/node.json"

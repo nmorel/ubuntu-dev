@@ -1,0 +1,13 @@
+source "https://api.berkshelf.com"
+
+cookbook "curl"
+cookbook "java"
+cookbook "git"
+cookbook "subversion"
+cookbook "ant"
+cookbook "maven"
+cookbook "gradle"
+cookbook "nodejs"
+cookbook "mongodb"
+cookbook "virtualbox"
+cookbook "vagrant"

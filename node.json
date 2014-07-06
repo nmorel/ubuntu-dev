@@ -23,6 +23,7 @@
     "checksum": "https://dl.bintray.com/mitchellh/vagrant/1.6.3_SHA256SUMS?direct"
   },
   "run_list": [
+    "recipe[curl]",
     "recipe[java]",
     "recipe[git]",
     "recipe[subversion]",
